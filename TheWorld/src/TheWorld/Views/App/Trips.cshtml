@@ -1,0 +1,28 @@
+﻿@*@model IEnumerable<TheWorld.Models.Trip>//Not needed anymore*@ 
+@{
+    ViewBag.Title = "Trips Page";
+}
+
+@section Scripts{
+    <script src="~/lib/underscore/underscore-min.js"></script> @*for mapping types in js*@
+    <script src="~/lib/angular/angular.min.js"></script>
+    <script src="~/lib/angular-route/angular-route.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIk14MYBn7RXhmcpmPiRnvGBYeGLC1ak0"  async defer></script>
+
+    <script src="~/lib/gmaps/gmaps.min.js"></script>
+    <script src="~/lib/travelmap/travelmap.min.js"></script>
+    <script src="~/js/App/simpleControls.js"></script>
+    <script src="~/js/App/app-trips.js"></script>
+    <script src="~/js/App/tripsController.js"></script>
+    <script src="~/js/App/tripEditorController.js"></script>
+    }
+
+<div class="row" data-ng-app="app-trips">
+   
+    <div data-ng-view>
+
+    </div>
+
+    
+</div>

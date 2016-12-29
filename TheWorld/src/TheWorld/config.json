@@ -1,0 +1,15 @@
+﻿{
+  "MailSettings": {
+    "ToAddress": "justin.martinek@gmail.com"
+  },
+  "ConnectionStrings": {
+    "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDb;Database=TheWorldDB;Trusted_Connection=true;MultipleActiveResultSets=true;"
+  },
+  "GeoCordService": {
+    "serviceUrl": "http://dev.virtualearth.net/REST/v1/Locations?",
+    "APIKey": "Ah9RYACUtkMa6RkSijhQ3H5EbrtXjUv9AtOrp61JbWDDzwbMXNdASTXxvnkQgehf"
+  },
+  "Google": {
+    "APIKey": "AIzaSyAIk14MYBn7RXhmcpmPiRnvGBYeGLC1ak0"
+  }
+}
